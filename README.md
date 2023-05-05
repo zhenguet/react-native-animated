@@ -1,12 +1,8 @@
 # Chess
-
 This is clone of [Chess - "Can it be done in React Native?"] by [William Candillon]
 
------
-
-Only run
-
-```
+## Installation
+```sh
 yarn && yarn android 
 ```
 Still haven't checked on IOS.
