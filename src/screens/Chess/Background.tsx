@@ -36,14 +36,14 @@ const Square = ({ white, row, col }: SquareProps) => {
         justifyContent: "space-between",
       }}
     >
-      <Text style={[textStyle, { opacity: col === 0 ? 1 : 0 }]}>
+      {/* <Text style={[textStyle, { opacity: col === 0 ? 1 : 0 }]}>
         {"" + (8 - row)}
       </Text>
       {row === 7 && (
         <Text style={[textStyle, { alignSelf: "flex-end" }]}>
           {String.fromCharCode(97 + col)}
         </Text>
-      )}
+      )} */}
     </View>
   );
 };
